@@ -1,0 +1,7 @@
+select vdisk file="C:\scripts\temp\Profile.vhdx"
+expand vdisk maximum=10000
+select vdisk file="C:\scripts\temp\Profile.vhdx"
+attach vdisk
+select volume 1
+extend
+detach vdisk
